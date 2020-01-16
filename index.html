@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BR architects</title>   
+    <link rel="stylesheet" href="./src/styles/generalstyles.css">
+    <link rel="stylesheet" href="./src/styles/header.css">    
+    <link rel="stylesheet" href="./src/styles/main.css">
+    <link rel="stylesheet" href="./src/styles/project.css">
+    <link rel="stylesheet" href="./src/styles/about.css">
+    <link rel="stylesheet" href="./src/styles/form.css">
+    <link rel="stylesheet" href="./src/styles/footer.css">
+    <link rel="stylesheet" href="./src/styles/media-query.css">
+</head>
+<body>
+    <header>
+        <a href="#"><b>BR</b> Architects</a>
+        <nav>
+           <li><a href="#">Projects</a></li> 
+           <li><a href="#">About</a></li> 
+           <li><a href="#">Contact</a></li> 
+        </nav>
+    </header>
+    <main>
+       <img src="./src/assets/images/buildings/architect.jpg" alt="building" />
+       <p><span class="img-bold">BR</span><span class='img-title'>Architects</span></p>  
+    </main>
+    <section class='projects'>
+        <div class='section-title'>
+            <p class='title'>Projects</p>
+        </div>
+        <div class='project-container'>
+            <div class="project-product">
+                <img class ='project' src='./src/assets/images/buildings/summerhouse.jpg' />
+                <p class="top-right">Summer House</p>
+            </div>
+            <div class="project-product">
+                <img class ='project' src='./src/assets/images/buildings/barnhouse.jpg' />
+                <p class="top-right">Barn House</p>
+            </div>
+            <div class="project-product">
+                <img class ='project' src='./src/assets/images/buildings/brickhouse.jpg' />
+                <p class="top-right">Brick House</p>
+            </div>
+            <div class="project-product">
+                <img class ='project' src='./src/assets/images/buildings/renovated.jpg' />
+                <p class="top-right">Renovated</p>
+            </div>
+            <div class="project-product">
+                <img class ='project' src='./src/assets/images/buildings/summerhouse.jpg' />
+                <p class="top-right">Summer House</p>
+            </div>
+            <div class="project-product">
+                <img class ='project' src='./src/assets/images/buildings/barnhouse.jpg' />
+                <p class="top-right">Barn House</p>
+            </div>
+            <div class="project-product">
+                <img class ='project' src='./src/assets/images/buildings/brickhouse.jpg' />
+                <p class="top-right">Brick House</p>
+            </div>
+            <div class="project-product">
+                <img class ='project' src='./src/assets/images/buildings/renovated.jpg' />
+                <p class="top-right">Renovated</p>
+            </div>           
+        </div>
+    </section>
+    <section class="about">
+        <div class="section-title">
+            <p class="title">About</p>
+        </div>
+        <p class="about-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="about-container">
+            <div class='person'>
+                <img class='person-image' src='./src/assets/images/persons/jhondoe.jpg' alt='ceo'/>
+                <h2 class="person-name">John Doe</h2>
+                <p class="person-designation">Ceo & founder</p>
+                <p class="person-info">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <button class="person-contact">Contact</button>
+            </div>
+            <div class='person'>
+                <img class='person-image' src='./src/assets/images/persons/dan star.jpg' alt='ceo'/>
+                <h2 class="person-name">Dan Star</h2>
+                <p class="person-designation">Architect</p>
+                <p class="person-info">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <button class="person-contact">Contact</button>
+            </div>
+            <div class='person'>
+                <img class='person-image' src='./src/assets/images/persons/Janedoe.jpg' alt='ceo'/>
+                <h2 class="person-name">Jane Doe</h2>
+                <p class="person-designation">Architect</p>
+                <p class="person-info">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <button class="person-contact">Contact</button>
+            </div>
+            <div class='person'>
+                <img class='person-image' src='./src/assets/images/persons/mikeross.jpg' alt='ceo'/>
+                <h2 class="person-name">Mike Ross</h2>
+                <p class="person-designation">Architect</p>
+                <p class="person-info">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <button class="person-contact">Contact</button>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class='section-title'>
+            <p class='title'>Contact</p>
+        </div>
+        <p class="about-paragraph">Lets get in touch and talk about your next project.</p>
+        <div class="form">
+            <form>
+                <input type='text' class='form-input' placeholder="Name" name='Name' required />
+                <input type='email' class='form-input' placeholder="Email" name='Email' required />
+                <input type='text' class='form-input' placeholder="Subject" name='Subject' required />
+                <input type='text' class='form-input' placeholder="Comment" name='Comment' required />
+                <button type="submit" class="form-button">SEND MESSAGE</button>
+            </form>
+        </div>
+    </section>
+    <section class="container">
+        <img  class='last-image' src="./src/assets/images/buildings/last.jpg" alt='last-image'>
+    </section>
+    <footer>
+        <p>Powered by w3.css</p>
+    </footer>
+</body>
+</html>

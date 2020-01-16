@@ -1,0 +1,31 @@
+.form {
+	margin: 10px 15px;
+}
+.form-input {
+	padding: 12px;
+	display: block;
+	width: 100%;
+	border: 1px solid #ccc !important;
+	margin: 16px 10px;
+}
+.form-button {
+	background-color: black;
+	color: #fff;
+	margin: 16px 10px;
+	border: none;
+	padding: 12px 16px;
+	text-align: center;
+}
+.form-button:hover,
+.person-contact:hover {
+	background-color: #ccc;
+}
+.container {
+	margin-top: 20px;
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-bottom: 5px;
+}
+.last-image {
+	padding: 8px 16px;
+}

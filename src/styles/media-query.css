@@ -1,0 +1,38 @@
+@media only screen and (max-width: 640px) {
+	nav li {
+		display: none;
+	}
+	main p {
+		position: absolute;
+		color: black;
+		top: 30%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.img-title {
+		display: none;
+	}
+	.project-container {
+		flex-direction: column;
+		align-items: center;
+	}
+	.project {
+		width: 500px;
+		height: 337px;
+		margin-bottom: 20px;
+	}
+	.about-container {
+		flex-direction: column;
+		align-items: center;
+	}
+	.person {
+		margin: 20px;
+	}
+	.person-image {
+		width: 500px;
+		height: 350px;
+	}
+	.person-contact {
+		width: 100%;
+	}
+}

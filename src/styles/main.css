@@ -1,0 +1,31 @@
+main {
+	margin-bottom: 20px;
+}
+main p {
+	position: absolute;
+	color: black;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+img {
+	position: relative;
+	max-width: 100%;
+	height: auto;
+}
+.img-title {
+	font-family: "Segoe UI", Arial, sans-serif;
+	font-size: 36px;
+	font-weight: 400;
+	letter-spacing: 4px;
+	color: #f1f1f1;
+}
+.img-bold {
+	font-size: 36px;
+	font-weight: 900;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 8px 11px;
+	letter-spacing: 4px;
+	margin-right: 8px;
+}

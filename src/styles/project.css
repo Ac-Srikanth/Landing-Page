@@ -1,0 +1,37 @@
+.title {
+	font-size: 24px;
+	font-family: "Segoe UI", Arial, sans-serif;
+	font-weight: 400;
+	margin: 20px 10px;
+}
+.title:hover {
+	background-color: azure;
+}
+.section-title {
+	border-bottom: 1px solid #ccc;
+	padding: 10px 10px;
+	margin: 15px 20px;
+}
+.project-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 30px;
+}
+.project {
+	width: 307px;
+	height: 204.96px;
+	margin-bottom: 20px;
+}
+.project-product {
+	position: relative;
+}
+.top-right {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	color: white;
+	background-color: black;
+	padding: 8px 16px;
+}

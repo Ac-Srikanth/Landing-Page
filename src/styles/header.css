@@ -1,0 +1,21 @@
+header {
+	top: 0;
+	left: 0;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	padding: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	z-index: 2;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	position: fixed;
+	width: 100%;
+}
+header nav {
+	display: flex;
+}
+header nav li {
+	margin: 0 15px;
+	align-self: center;
+}

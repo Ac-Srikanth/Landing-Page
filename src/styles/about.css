@@ -1,0 +1,39 @@
+.about-paragraph {
+	margin: 15px 20px;
+}
+.about-container {
+	display: flex;
+	margin: 10px;
+	justify-content: space-between;
+	flex-direction: row;
+}
+.person {
+	margin: 10px;
+	align-self: center;
+}
+.person-image {
+	width: 307px;
+	height: 204px;
+}
+.person-name {
+	margin: 10px 0px;
+}
+.person-designation {
+	opacity: 0.60;
+}
+.person-info {
+	margin: 10px 0px;
+}
+.person-contact {
+	border: none;
+	padding: 8px 16px;
+	vertical-align: middle;
+	overflow: hidden;
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+	white-space: nowrap;
+	font: 15px Verdana, sans-serif;
+	background-color: #f1f1f1;
+	width: 307px;
+}
